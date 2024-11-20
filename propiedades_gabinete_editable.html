@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades del Gabinete</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 340px;
+            background-color: #ffffff;
+            border: 1px solid #808080;
+            padding: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 10px;
+        }
+        .field {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .field label {
+            font-weight: bold;
+            margin-right: 5px;
+            width: 120px;
+        }
+        .field input {
+            flex: 1;
+            font-size: 12px;
+            border: 1px solid #808080;
+            padding: 2px;
+        }
+        .table-container {
+            border: 1px solid #808080;
+            padding: 5px;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #808080;
+            padding: 5px;
+            text-align: left;
+            font-size: 12px;
+        }
+        th {
+            font-weight: bold;
+            background-color: #e0e0e0;
+        }
+        td input {
+            width: 100%;
+            font-size: 12px;
+            border: none;
+            background: transparent;
+        }
+        td input:focus {
+            outline: 1px solid #808080;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Propiedades del Gabinete</div>
+        <div class="section">
+            <div class="field"><label>Librería:</label><input type="text" value="BTEL COMPROBANTES CO..."></div>
+            <div class="field"><label>Gabinete:</label><input type="text" value="VSAMANIEGO"></div>
+            <div class="field"><label>Id_gab:</label><input type="text" value="298"></div>
+            <div class="field"><label>Fecha de Creación:</label><input type="text" value="30/08/2024"></div>
+            <div class="field"><label>Usuario:</label><input type="text" value="DAVID"></div>
+            <div class="field"><label>Registros:</label><input type="text" value="1"></div>
+            <div class="field"><label>Páginas:</label><input type="text" value="1"></div>
+            <div class="field"><label>Tamaño en Disco:</label><input type="text" value="3,31 MB"></div>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Longitud</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" value="LOTE"></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="30"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="ESCANEADOR"></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="60"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="SUBSERIE D..."></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="50"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="CAJA"></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="30"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="DIGITADOR"></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="OBSERVACION"></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="40"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="NUMERO CO..."></td>
+                        <td><input type="text" value="ALFANUMER..."></td>
+                        <td><input type="text" value="80"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            <button>Salir</button>
+        </div>
+    </div>
+</body>
+</html>
